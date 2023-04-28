@@ -1,0 +1,23 @@
+Package: HPTest
+Type: Package
+Title: Hypothesis Testing with Plotting
+Version: 0.1.0
+Author: Onintsoa Ramananandroniaina
+Maintainer: Onintsoa Ramananandroniaina <onyrazafindrasoa@gmail.com>
+Description: The constructor will take at least three arguments x, y, and alpha and conduct hypothesis testing. 
+    The x and y are vectors of data and alpha is the error level.
+    There are three posibilities - 
+    1. Two independent samples with equal population variances.
+    2. Two independent variables with unequal population variances (Welch test).
+    3. Two dependent vectors within a paired experiment. 
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+    stats,
+    graphics
+RoxygenNote: 7.2.3
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
